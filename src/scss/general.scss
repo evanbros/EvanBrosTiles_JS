@@ -1,0 +1,15 @@
+// Import Fonts;
+// @font-face {
+//     font-family: "[font-name]";
+//     src: url("../fonts/[font-file]");
+// }
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./variables.scss";
+
+html,
+body {
+    height: 100vh;
+}

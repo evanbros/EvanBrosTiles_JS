@@ -1,0 +1,24 @@
+# folders used at build
+dist/
+tmp/
+.tmp/
+
+# npm and packages
+npm-debug.log
+node_modules/
+
+# IDEs metadata
+.project
+nbproject
+sftp-config.json
+
+# temp files
+~*
+._*
+
+#sass
+.sass_cache
+
+# auto genereted files
+docs/
+tests.js
