@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom';
 
 import Store from 'Core/store.js';
+import Home from 'Components/home.jsx';
 
 import './scss/general.scss';
 
@@ -16,7 +17,7 @@ const App = (
         <BrowserRouter>
             <Switch>
                 <Route exact path="/">
-                    <h1>Home</h1>
+                    <Home />
                 </Route>
             </Switch>
         </BrowserRouter>

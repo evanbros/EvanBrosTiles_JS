@@ -4,9 +4,7 @@
 //     src: url("../fonts/[font-file]");
 // }
 
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import "../../node_modules/bulma/bulma.sass";
 @import "./variables.scss";
 
 html,
