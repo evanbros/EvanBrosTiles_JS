@@ -11,3 +11,32 @@ html,
 body {
     height: 100vh;
 }
+
+button {
+    margin: 1em;
+}
+
+.border {
+    border: black solid 1px;
+    border-radius: 0.5em;
+}
+
+.main-margin-top {
+    margin-top: $main-margin-top;
+}
+
+.main-margin {
+    margin: $main-margin;
+}
+
+.main-padding {
+    padding: $main-padding;
+}
+
+.center {
+    text-align: center;
+}
+
+.navbar {
+    border-bottom: lightgray solid 1px;
+}
