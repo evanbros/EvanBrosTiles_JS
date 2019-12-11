@@ -1,8 +1,8 @@
 import React from 'react';
 
-import MenubarItemDropdown from './menubarItemDropdown.jsx';
+import MainMenuItemDropdown from './mainMenuItemDropdown.jsx';
 
-const Home = () => {
+const MainMenu = () => {
     const fileMenu = {
         name: 'File',
         items: [
@@ -47,11 +47,11 @@ const Home = () => {
                 </a>
             </div>
             <div className="navbar-menu">
-                <MenubarItemDropdown menuid='fileMenu' content={fileMenu}/>
-                <MenubarItemDropdown menuid='helpMenu' content={helpMenu}/>
+                <MainMenuItemDropdown menuid='fileMenu' content={fileMenu}/>
+                <MainMenuItemDropdown menuid='helpMenu' content={helpMenu}/>
             </div>
         </div>
     );
 };
 
-export default Home;
+export default MainMenu;

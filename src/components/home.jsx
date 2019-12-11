@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Menubar from './menubar.jsx';
+import MainMenu from './mainMenu.jsx';
 
 function Home() {
     return (
-        <Menubar />
+        <MainMenu />
     );
 }
 
