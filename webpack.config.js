@@ -81,9 +81,8 @@ module.exports = {
     resolve: {
         alias: {
             Components: `${paths.get('src')}/components`,
-            Core: `${paths.get('src')}/core`,
             Fonts: `${paths.get('src')}/fonts`,
-            Icons: `${paths.get('src')}/icons`,
+            Images: `${paths.get('src')}/images`,
             Scss: `${paths.get('src')}/scss`,
         },
     },

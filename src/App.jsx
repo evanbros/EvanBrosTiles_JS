@@ -7,8 +7,8 @@ import {
     Switch,
 } from 'react-router-dom';
 
-import Store from 'Core/store.js';
 import Home from 'Components/home.jsx';
+import Store from './store.js';
 
 import './scss/general.scss';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import teste from '../tests/teste.jpg';
+import teste from 'Images/teste.jpg';
 
 function TilesetContainer() {
     return (
