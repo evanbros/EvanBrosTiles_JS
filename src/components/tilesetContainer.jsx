@@ -4,9 +4,9 @@ import teste from 'Images/teste.jpg';
 
 function TilesetContainer() {
     return (
-        <div className="main-margin-top center">
+        <div className="tile is-child center">
             <button className="button">Load Tileset</button>
-            <div className="column border">
+            <div className="border">
                 <span className="icon is-large main-margin">
                     <img src={teste} />
                 </span>
@@ -15,6 +15,15 @@ function TilesetContainer() {
                 </span>
                 <span className="icon is-large main-margin">
                     <img src={teste} />
+                </span>
+                <span className="icon is-large main-margin">
+                    <img className="main-margin" src={teste} />
+                </span>
+                <span className="icon is-large main-margin">
+                    <img className="main-margin" src={teste} />
+                </span>
+                <span className="icon is-large main-margin">
+                    <img className="main-margin" src={teste} />
                 </span>
                 <span className="icon is-large main-margin">
                     <img className="main-margin" src={teste} />

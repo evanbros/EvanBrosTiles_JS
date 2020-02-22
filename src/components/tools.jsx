@@ -1,11 +1,11 @@
 import React from 'react';
 
-function StatusBar() {
+function Tools() {
     return (
         <div className="tile is-child">
-            <p>loading...</p>
+            <p>Tools</p>
         </div>
     );
 }
 
-export default StatusBar;
+export default Tools;

@@ -1,19 +1,19 @@
-// Import Fonts;
-// @font-face {
-//     font-family: "[font-name]";
-//     src: url("../fonts/[font-file]");
-// }
-
 @import "../../node_modules/bulma/bulma.sass";
+@import "./fonts.scss";
 @import "./variables.scss";
 
 html,
 body {
     height: 100vh;
+    font-family: 'FreePixel', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 button {
     margin: 1em;
+    font-family: 'FreePixel', Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 .border {
